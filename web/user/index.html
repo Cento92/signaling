@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    >
+    <title>Call</title>
+    <link rel="stylesheet" href="/shared/app.css">
+</head>
+
+<body>
+    <main class="app-shell client-shell">
+        <header class="app-header">
+            <div>
+                <p class="eyebrow">Secure call</p>
+                <h1>Your call</h1>
+            </div>
+            <div class="status-badge" aria-label="Call status">
+                <strong id="status" aria-live="polite">Disconnected</strong>
+            </div>
+        </header>
+
+        <div id="video-call-root"></div>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+</body>
+</html>

@@ -8,8 +8,8 @@ const configuration = {
         },
         {
           urls: "turn:turn.cento92.com:3478",
-          username: "turnuser",
-          credential: "turnuser456"
+          username: "Rounding8085",
+          credential: "AGN&&My4Zxt6@w6bUmxtJ2yBmTa%*^"
         },
     ],
     // iceTransportPolicy: "relay",
